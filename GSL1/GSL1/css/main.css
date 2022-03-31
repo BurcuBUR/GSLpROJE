@@ -1,0 +1,115 @@
+﻿*,h1,h2,h3,h4,h5,h6{
+    margin:0;padding:0;
+}
+body{
+    font-family:Calibri;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.header {
+    color:black;
+    border-bottom: 1px solid silver;
+    padding: 5px 0;
+}
+.logo {
+    float: left;
+}
+.logo img{
+    width:250px;
+}
+.user {
+    width: 250px;
+    float: right;
+    padding-top: 30px;
+    text-align: right;
+}
+    .user a {
+        color: #90ab9f;
+        text-decoration: none;
+        padding: 0 20px;
+    }
+.content {
+    width: 739px;
+    padding: 20px 10px 0 0;
+    float: left;
+    border-right: 1px solid silver;
+}
+.menucontainer {
+    width: 240px;
+    padding: 20px 10px 0 0;
+    float: left;
+    min-height: 500px;
+}
+.menucontainer ul{
+    list-style-type:none;
+}
+.menucontainer ul a{
+    text-decoration:none;
+    color:teal;
+}
+.menucontainer ul a li{
+    padding:7px 7px 7px 15px;
+    border-bottom:1px solid silver;
+}
+.menucontainer ul a:hover li{
+    background-color:#cccccc;
+}
+.proje{
+
+}
+.baslik {
+    padding: 10px 0;
+    color: dimgray;
+}
+.image img{
+    width:100%;
+}
+.subcontent{
+
+}
+.summary {
+    padding: 10px 0;
+    color: dimgray;
+}
+.bilgi {
+    padding: 10px 0;
+    color: orangered;
+}
+.button{
+    padding:10px 0;
+}
+.button a{
+    color:red;
+    text-decoration:none;
+}
+.yorum{
+    color:#90ab9f;
+}
+.yorumbaslik{
+    border-top: 1px solid silver;
+    border-bottom:1px solid silver;
+    padding:20px 0px;
+}
+.yorumitem {
+    padding: 10px 0;
+    border-bottom: 1px solid silver;
+    border-top: 1px solid silver;
+}
+.yorumitem label{
+    color:orangered;
+}
+.yorumkutu{
+    width:100%;
+}
+.yorumyapbutton {
+    padding: 10px 70px;
+    background-color: silver;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid #90ab9f;
+
+}

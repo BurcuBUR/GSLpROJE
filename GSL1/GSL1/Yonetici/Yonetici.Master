@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Yonetici.Master.cs" Inherits="GSL1.Yonetici.YoneticiMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Yönetim Paneli</title>
+    <link href="Css/adminLayout.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+         <div class="menuBar">
+                 <div class="logo">
+                     <h3>GSL Yönetim</h3>
+                 </div>              
+             <div class="user">
+                     Hoşgeldinn <asp:Label ID="lbl_kullanici" runat="server" Style="margin-right: 30px;"></asp:Label>
+                     <asp:LinkButton ID="lbtn_cikis" runat="server" OnClick="lbtn_CikisYap_Click">Çıkış Yap</asp:LinkButton>
+              </div>
+             </div>
+            <div>
+                <div class="solMenu">
+                    <ul class="menu">
+                        <a href="Default.aspx">
+                             <li>Anasayfa</li>
+                        </a>
+
+                          <a href="SehirListele.aspx">
+                            <li>İl / İlçeler</li>
+                        </a>
+
+                        <a href="OkulListele.aspx">
+                            <li>Okullar</li>
+                        </a>
+
+                        <a href="OgrenciListele.aspx">
+                            <li>Öğrenciler</li>   
+                        </a>
+
+                        <a href="KategoriListele.aspx">
+                            <li>Kategoriler</li>
+                        </a>
+
+                        <a href="KategoriListeleR.aspx">
+                            <li>Resim Bölümü Kategorileri</li>
+                        </a>
+
+                        <a href="KategoriListeleM.aspx">
+                            <li>Müzik Bölümü Kategorileri</li>
+                        </a>
+
+                        <a href="ProjeListele.aspx">
+                            <li>Projeler</li>
+                        </a>
+
+                        <a href="Rprojelistele.aspx">
+                            <li> Resim Bölümü Projeleri</li>
+                        </a>
+
+                        <a href="MProjelistele.aspx">
+                            <li>Müzik Bölümü Projeleri</li>
+                        </a>
+
+                        <a href="YorumListele.aspx">
+                            <li>Yorumlar</li>
+                        </a>
+
+                    </ul>
+                </div>
+   
+
+            <div>   
+                <div class="cikis">
+                   <asp:Panel ID="pnl_cikis" runat="server" Visible="false">
+                       Emin misiniz?<br />
+                       <asp:LinkButton ID="lbtn_evet" runat="server"  OnClick="lbtn_evet_Click" Style="text-decoration:none; color:#04201a;">Evet</asp:LinkButton>
+                       <asp:LinkButton ID="lbtn_hayir" runat="server"  OnClick="lbtn_hayir_Click" Style="text-decoration:none; color:#04201a;">Hayır</asp:LinkButton>
+                   </asp:Panel>
+               </div>
+               <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+               </asp:ContentPlaceHolder>
+             </div>
+           </div>
+             </div>
+    </form>
+</body>
+</html>

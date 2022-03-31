@@ -1,0 +1,105 @@
+﻿.container
+{
+    min-height:450px;
+    border:1px solid silver;
+    border-radius:7px;
+}
+.title{
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    background-color:gray;
+    padding:20px;
+}
+
+.formcontent{
+    padding:20px;
+}
+
+.contentable{
+    padding:0px !important;
+    float: left;
+}
+.basarili {
+    padding: 20px;
+    border: 1px solid #098313;
+    background-color: #c8ffbb;
+    color: #098313;
+    border-radius: 7px;
+}
+.basarisiz {
+    padding: 20px;
+    border: 1px solid #890909;
+    background-color: #ffbcbc;
+    color: #890909;
+    border-radius: 7px;
+}
+
+.liste{
+    width:100%;
+    border-top:1px solid silver;
+}
+.list tr th{
+    border-bottom:1px solid silver;
+    padding:15px 10px;
+}
+
+.button{
+    padding:3px 7px;
+    text-decoration:none;
+    border-radius: 5px;
+    margin:10px;
+}
+.update {
+    background-color: seagreen;
+    border: 1px solid seagreen;
+    color: white;
+}
+    .update:hover {
+        background-color: gray;
+        border:gray;
+        color: white;
+    }
+.delete {
+    background-color: darkred;
+    border: 1px solid darkred;
+    color: white;
+}
+
+    .delete:hover {
+        background-color: gray;
+        border:gray;
+        color: white;
+    }
+.row{
+    padding:10px 0;
+}
+.row .forminput{
+    border:1px solid silver;
+    border-radius: 5px;
+    padding:10px;
+    width: 500px;
+    margin-top:20px;
+    
+}
+.row .forminput:focus{
+    outline: 1px solid seagreen;
+}
+.row .button{
+    padding:7px 25px;
+    background-color:seagreen;
+    color:white;
+    text-decoration: none;
+    float:left;
+}
+.row .button:hover{
+    background-color:gray;
+}
+.durum{
+    background-color:#ff0000;
+    border:1px solid;
+    color:white;
+}
+.durum:hover{
+    background-color: #ffbcbc;
+    color:white;
+}

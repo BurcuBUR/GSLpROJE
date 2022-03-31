@@ -1,0 +1,64 @@
+﻿body {
+    font-family: Calibri;
+}
+
+.menuBar {
+    height: 80px;
+    background-color: #aaa3a3;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #04201a;
+    float: left;
+}
+
+.user {
+    padding-top: 20px;
+    padding-right: 50px;
+    color: #04201a;
+    float: right;
+}
+
+    .user a {
+        color: white;
+        text-decoration: none;
+    }
+
+.solMenu {
+    width: 250px;
+    background-color: #c4dfce;
+    height: 780px;
+    float: left;
+}
+.cikis {
+    width: 100px;
+    background-color: #c4dfce;
+    color: #04201a;
+}
+.menu {
+    list-style-type: none;
+    padding: 10px;
+}
+
+    .menu a {
+        color: #04201a;
+        text-decoration: none;
+    }
+
+.munu a li {
+    padding: 20px;
+    padding-left: 40px;
+    border-bottom: 1px solid silver;
+}
+
+.menu a:hover li {
+    background-color: #a0d5aa;
+}
+
+.icerik {
+    width: 900px;
+    float: left;
+    padding: 25px;
+}
